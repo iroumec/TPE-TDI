@@ -1,4 +1,4 @@
-# Introducción
+# Introducción.
 
 Trabajo Práctico Especial para la materia _Teoría de la Información_.
 
@@ -13,9 +13,7 @@ A grandes rasgos, el trabajo realizado contempla:
 - El análisis del Teorema de Shannon.
 - El uso de medidas entrópicas, como el ruido y la información mutua.
 
-# Guía de instalación
-
-Guía para descarga del trabajo e instalación de las librerías necesarias.
+# Guía de instalación.
 
 ## Descarga de los archivos necesarios
 
@@ -66,28 +64,28 @@ En Windows:
 
 ## Instalación de dependencias
 
-Con el entorno virtual activo, se deben instalar las dependencias del archivo `requirements.txt` para poder ejecutar la notebook de análisis:
+Con el entorno virtual activo, se deben instalar las dependencias del archivo `requirements.txt` para poder ejecutar la notebook del análisis:
 
 ```
 pip install -r requirements.txt
 ```
 
-Luego, realiza la instalacion de jupyter. Aunque este se encuentre en los requirements, se requiere de su instalacion.
+Luego, se debe realizar la instalacion de jupyter.
 
 ```
 pip install jupyter
 ```
 
-## Lectura de la notebook de Jupyter
+## Lectura de la notebook,
 
-Una vez se ha instalado todo lo necesario, solo resta la lectura del archivo `Notebook.ipynb`. Para esto, se recomiendan los siguientes métodos.
+Una vez se ha instalado todo lo necesario, solo resta la lectura del archivo `notebook.ipynb`. Para esto, se recomiendan los siguientes métodos.
 
-### Utilizando JupyterLab
+### Utilizando JupyterLab.
 >
 > [!IMPORTANT]
 > No se incluye la [instalación de la herramienta JupyerLab](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html) en esta guía, ya que escapa al alcance del trabajo.
 
-Para utilizar JupyerLab este abre una pestaña en el buscador predeterminado. Para esto se debe ejecutar el siguiente comando:
+Para utilizar JupyerLab, se debe ejecutar el siguiente comando:
 
 ```
 jupyter lab
@@ -96,18 +94,16 @@ jupyter lab
 > [!WARNING]
 > Esto se debe realizar con el ambiente activo para que se detecte correctamente el kernel.
 
-Una vez allí, se debe dirigir al siguiente apartado
+Una vez allí, se debe dirigir al siguiente apartado:
 
 ![imagen para explicar como abrir la notebook en jupyter lab](resources/images/apartado_jupyterlab.png)
 
-### Utilizando el IDE de Visual Studio Code
+### Utilizando el IDE de Visual Studio Code.
 >
 > [!IMPORTANT]
-> No se incluye la [instalación del IDE Visual Studio code](https://code.visualstudio.com/docs/). Se recomienda realizar la creacion del ambiente desde la consola del IDE.
+> No se incluye la [instalación del IDE Visual Studio Code](https://code.visualstudio.com/docs/). Se recomienda realizar la creacion del ambiente desde la consola del IDE.
 
-Para utilizar este IDE se deben instalar las extensiones necesarias. Se debe presionar en el ícono de cuadrado en la barra lateral izquierda ![icono de extensión](resources/images/icono_extension.png).
-
-Una vez allí, se deben instalar las extensiones Python y Jupyter, ambas publicadas por Microsoft.
+Para utilizar este IDE, es necesaria instalar las extensiones que se mostrarán a continuación. Previamente, se debe presionar en el ícono de cuadrado en la barra lateral izquierda ![icono de extensión](resources/images/icono_extension.png). Una vez allí, las extensiones a instalar son las de Python y Juýter, ambas publicadas por Microsoft:
 
 ![Extensiones necesarias: Jupyter](resources/images/extensiones_necesarias_jupyter.png)
 
