@@ -15,9 +15,9 @@ A grandes rasgos, el trabajo realizado contempla:
 
 # Guía de instalación.
 
-## Descarga de los archivos necesarios
+## Descarga de los archivos necesarios.
 
-Se deben descargar los archivos necesarios los cuales están contenidos en el repositorio. Se recomiendan los siguientes métodos.
+Se deben descargar los archivos necesarios, los cuales están contenidos en el repositorio. Se recomiendan los siguientes métodos.
 
 ### Utilizando Git.
 
@@ -37,7 +37,7 @@ Para esto se debe dirigir al [repositorio](https://github.com/iroumec/TPE-TDI) y
 
 ![Gif para mostrar como descargar](resources/gifs/descarga_repositorio.gif)
 
-## Creación del ambiente virtual
+## Creación del ambiente virtual.
 >
 > [!IMPORTANT]
 > No se incluye la [instalación del lenguaje Python](https://www.youtube.com/watch?v=4EGfl6sWQ18) en esta guía, ya que escapa al alcance del trabajo.
@@ -48,21 +48,21 @@ Para asegurar que las dependencias se instalen correctamente y evitar conflictos
 python -m venv env
 ```
 
-Activación del entorno virtual
+Activación del entorno virtual:
 
-En Linux o Mac:
+- En Linux o Mac:
 
 ```
 source env/bin/activate
 ```
 
-En Windows:
+- En Windows:
 
 ```
 .\env\Scripts\activate
 ```
 
-## Instalación de dependencias
+## Instalación de dependencias.
 
 Con el entorno virtual activo, se deben instalar las dependencias del archivo `requirements.txt` para poder ejecutar la notebook del análisis:
 
