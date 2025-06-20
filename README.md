@@ -13,6 +13,8 @@ A grandes rasgos, el trabajo realizado contempla:
 - El análisis del Teorema de Shannon.
 - El uso de medidas entrópicas, como el ruido y la información mutua.
 
+_Link_ al código ejecutable: https://colab.research.google.com/drive/1KnCPV-TRAHqmvbs_y1z0bgtj0AL0eIw0?usp=sharing.
+
 # Guía de instalación.
 
 ## Descarga de los archivos necesarios.
